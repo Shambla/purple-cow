@@ -1,0 +1,9 @@
+@import '../../assets/style/variables';
+
+.footer {
+  box-sizing: border-box;
+  height: 50px;
+  padding-top: $baseline;
+  background: #eee;
+  color: #777;
+}

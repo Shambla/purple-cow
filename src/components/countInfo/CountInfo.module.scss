@@ -1,7 +1,7 @@
-@import '../assets/style/variables.scss';
+@import '../../assets/style/variables';
 
 .main {
-  height: 40vh;
+  height: calc(100vh - 510px);
   box-sizing: border-box;
 }
 
@@ -15,5 +15,6 @@
 
 .hr {
   width: 40%;
+  margin: $baseline * 2 auto;
   border-top: 1px solid #dddddd;
 }
