@@ -1,0 +1,14 @@
+@import '../assets/style/variables.scss';
+
+.button {
+  background: $primary;
+  padding: $baseline-half $baseline;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 1.5rem;
+
+  &:hover {
+    background: $alternate;
+  }
+}

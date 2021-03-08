@@ -1,0 +1,19 @@
+@import '../assets/style/variables.scss';
+
+.main {
+  height: 40vh;
+  box-sizing: border-box;
+}
+
+.section {
+  padding-top: $baseline * 2;
+
+  h3 {
+    color: $primary;
+  }
+}
+
+.hr {
+  width: 40%;
+  border-top: 1px solid #dddddd;
+}
